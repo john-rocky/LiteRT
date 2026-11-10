@@ -1422,6 +1422,7 @@ cc_test(
     deps = [
         ":moe_delegate_kernel",
         ":test_main",
+        ":xnnpack_delegate",
         "//tflite:builtin_ops",
         "//tflite:framework",
         "//tflite/core:framework",
